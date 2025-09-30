@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 0, 63);
+}
+header{
+    width: 97.4%;
+    padding: 20px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+header input{
+    border: 1px solid black;
+    padding: 5px 5px;
+    outline: 0;
+    height: 35px;
+    width: 350px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+nav ul{
+    display: inline-block;
+}
+nav li{
+    margin-right:50px;
+    font-family: sans-serif;
+}
+nav li a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 700;
+}
+li a:hover{
+    color: rgb(132, 132, 209);
+}
+
+products{
+    display: flex;
+    flex-direction: column;
+}
+.products h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.product-list{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.items{
+    height: 350px;
+    width: 250px;
+    padding: 10px;
+    border: 2px solid white;
+    background: rgb(106, 94, 116);
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.items img{
+    margin-top: -10px;
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+.items:hover img{
+    width: 225px;
+    height: 175px;
+}
+.items .disc{
+    text-align: justify;
+    margin-top: 10px;
+}
+.items .btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.btn button{
+    padding: 10px 30px;
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    color: white;
+    padding: 20px;
+    background-color: rgba(128, 98, 156, 0.89);
+}
+footer a{
+    color: rgb(110, 0, 17);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+footer button{
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
